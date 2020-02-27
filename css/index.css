@@ -102,8 +102,9 @@ a {
 h1 {
 	/* display: inline-block;  */
 	font-size: 70px;
-	margin: 110px 0 0 30px;
-	
+    /* margin: 110px 0 0 30px; */
+    text-align: center;
+	/* margin-top: 110px; */
 	
 }
 .top-img {
@@ -118,10 +119,10 @@ h1 {
 	display: flex;
 	justify-content: space-evenly;	
 }
-span {
+/* span { */
     /* margin-left: 70px;  */
-    text-align: center;
-    display: block;
+    
+    
 }
  button {
 	border: 2px solid black;
@@ -137,6 +138,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .mid-section {
@@ -285,6 +287,9 @@ ul li {
     }
     .top-img {
         display: none;
+    }
+    .h1-button {
+        margin-top: 50px;
     }
 }
 
