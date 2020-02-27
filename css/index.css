@@ -293,6 +293,49 @@ ul li {
     }
 }
 
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+
+    a {
+        border-top: 1px solid gray;
+        margin: 10px 0;
+        
+    }
+
+    .mid-section {
+        flex-direction: column;
+    }
+    .mid {
+        width: 90%;
+        margin: 20px;
+    
+    }
+
+    .middle-img {
+        width: 90%;
+        height: 120px;
+        
+    }
+
+    .bottom-section {
+        flex-direction: column;
+    }
+    .bottom {
+        width: 90%;
+        margin: 20px;
+    
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
 
 
 
